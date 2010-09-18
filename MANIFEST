@@ -1,0 +1,19 @@
+bin/Makefile.PL
+bin/ppv/perlpv
+bin/t/EmbeddedPerlTest.t
+bin/TESTS
+bin/twept.pl
+Changes
+doc/en/twept.html
+doc/ja/twept.html
+lib/HTML/EmbeddedPerl/Test.pm
+Makefile.PL
+MANIFEST
+pod/en/HTML/EmbeddedPerl/Test.pod
+pod/en/twept.pod
+pod/ja/HTML/EmbeddedPerl/Test.pod
+pod/ja/twept.pod
+README
+t/HTML-EmbeddedPerl-Test.t
+wrapper/Makefile.PL
+META.yml                                 Module meta-data (added by MakeMaker)

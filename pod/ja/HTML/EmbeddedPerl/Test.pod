@@ -1,0 +1,21 @@
+=encoding utf-8
+
+=head1 名前
+
+HTML::EmbeddedPerl::Test - (主に)HTMLのためのPerlコード埋め込み I<(テストとデバッグ用)>
+
+=head1 説明
+
+出力HTMLにてコードが見えます。
+エラーが見つかっても強制終了しません。
+(強制終了はループ検出自のみ)
+
+=head1 参考
+
+L<HTML::EmbeddedPerl>
+
+=head1 著者
+
+トゥインクル・コンピューティング <twinkle@cpan.org>
+
+=cut

@@ -1,0 +1,19 @@
+=head1 NAME
+
+HTML::EmbeddedPerl::Test - The Perl embeddings for HTML. I<(for test and debug)>
+
+=head1 DESCRIPTION
+
+visible your code in the output HTML.
+not force exiting on found errors.
+(forced exiting E<quot>detected loopE<quot> only)
+
+=head1 SEE ALSO
+
+L<HTML::EmbeddedPerl>
+
+=head1 AUTHOR
+
+Twinkle Computing <twinkle@cpan.org>
+
+=cut
