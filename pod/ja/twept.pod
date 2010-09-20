@@ -6,7 +6,7 @@ twept - (主に)HTMLのためのPerlコード埋め込み I<(テストとデバ�
 
 =head1 概要
 
-最初の行へと挿入します。
+最初の行へ挿入します。
 
   #!/あなたの/パス/twepl
 
@@ -21,31 +21,22 @@ I<E<lt>$ Perl-Code $E<gt>> をHTMLへ追加します。
 エラーが見つかっても強制終了しません。
 (強制終了はループ検出自のみ)
 
-=head1 タイムアウト
-
-ループを検知すると強制終了します。
-必要ならグローバル変数 B<$TIMEOUT> を上書きして変更してください。
-
-  # 初期設定は E<quot>2E<quot> 秒です
-  $TIMEOUT = 2;
-
-alarm の下で既に実行されて、そのタイムアウトの変更はできません。
-
-  # 新規タイムアウトとして
-  alarm(B<X>);
-
-=head1 予約済み変数
-
-  $TIMEOUT(グローバル)
-  $epl
-  $var
-
 =head1 オプション
 
 tweptのためのオプションは何もありません。
 
+=head1 参考
+
+L<HTML::EmbeddedPerl::Test>
+
 =head1 著者
 
 トゥインクル・コンピューティング <twinkle@cpan.org>
+
+=head1 ライセンス
+
+Copyright (c) 2010 Twinkle Computing All rights reserved.
+
+This library is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
 =cut

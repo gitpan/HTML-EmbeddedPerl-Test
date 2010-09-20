@@ -16,4 +16,10 @@ L<HTML::EmbeddedPerl>
 
 Twinkle Computing <twinkle@cpan.org>
 
+=head1 LISENCE
+
+Copyright (c) 2010 Twinkle Computing All rights reserved.
+
+This library is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
+
 =cut

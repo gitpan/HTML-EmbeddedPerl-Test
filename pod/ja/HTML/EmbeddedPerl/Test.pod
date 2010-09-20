@@ -14,8 +14,10 @@ HTML::EmbeddedPerl::Test - (主に)HTMLのためのPerlコード埋め込み I<(
 
 L<HTML::EmbeddedPerl>
 
-=head1 著者
+=head1 ライセンス
 
-トゥインクル・コンピューティング <twinkle@cpan.org>
+Copyright (c) 2010 Twinkle Computing All rights reserved.
+
+This library is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
 =cut

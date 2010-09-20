@@ -9,7 +9,7 @@ our @ISA       = qw(Exporter);
 our @EXPORT    = qw(ep);
 our @EXPORT_OK = qw($VERSION $TIMEOUT);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 our $TIMEOUT = 2;
 
 my $STDBAK = *STDOUT;
@@ -107,5 +107,11 @@ L<HTML::EmbeddedPerl>
 =head1 AUTHOR
 
 Twinkle Computing <twinkle@cpan.org>
+
+=head1 LISENCE
+
+Copyright (c) 2010 Twinkle Computing All rights reserved.
+
+This library is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
 =cut

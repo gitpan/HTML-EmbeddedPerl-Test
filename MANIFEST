@@ -5,7 +5,9 @@ bin/TESTS
 bin/twept.pl
 Changes
 doc/en/twept.html
+doc/en/HTML/EmbeddedPerl/Test.html
 doc/ja/twept.html
+doc/ja/HTML/EmbeddedPerl/Test.html
 lib/HTML/EmbeddedPerl/Test.pm
 Makefile.PL
 MANIFEST
