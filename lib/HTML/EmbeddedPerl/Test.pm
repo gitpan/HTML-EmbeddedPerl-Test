@@ -9,7 +9,7 @@ our @ISA       = qw(Exporter);
 our @EXPORT    = qw(ep);
 our @EXPORT_OK = qw($VERSION $TIMEOUT);
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 our $TIMEOUT = 2;
 
 my $STDBAK = *STDOUT;
