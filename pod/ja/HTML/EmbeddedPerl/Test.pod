@@ -14,6 +14,10 @@ HTML::EmbeddedPerl::Test - (主に)HTMLのためのPerlコード埋め込み I<(
 
 L<HTML::EmbeddedPerl>
 
+=head1 作者
+
+トゥインクル・コンピューティング <twinkle@cpan.org>
+
 =head1 ライセンス
 
 Copyright (c) 2010 Twinkle Computing All rights reserved.

@@ -29,7 +29,7 @@ tweptのためのオプションは何もありません。
 
 L<HTML::EmbeddedPerl::Test>
 
-=head1 著者
+=head1 作者
 
 トゥインクル・コンピューティング <twinkle@cpan.org>
 

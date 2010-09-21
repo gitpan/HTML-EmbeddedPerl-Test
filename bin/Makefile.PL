@@ -11,7 +11,7 @@ PERLPV = ppv/perlpv
 all: twept$suf
 
 twept$suf: twept.pl
-	$Config{perlpath} \$(PERLPV) \$^
+	$Config{perlpath} \$(PERLPV) twept.pl
 	strip twept$suf
 test:
 	$Config{perlpath} t/EmbeddedPerlTest.t
