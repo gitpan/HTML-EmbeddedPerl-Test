@@ -1,8 +1,8 @@
 --- #YAML:1.0
 name:                HTML-EmbeddedPerl-Test
-version:             0.05
-abstract:            ~
-license:             ~
+version:             0.06
+abstract:            The Perl embeddings for HTML. I<(for test and debug)>
+license:             perl
 author:              
     - Twinkle Computing <twinkle@cpan.org>
 generated_by:        ExtUtils::MakeMaker version 6.42
