@@ -9,7 +9,7 @@ our @ISA       = qw(Exporter);
 our @EXPORT    = qw(ep);
 our @EXPORT_OK = qw($VERSION $TIMEOUT);
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 our $TIMEOUT = 2;
 
 my $STDBAK = *STDOUT;
@@ -28,7 +28,7 @@ sub content_type{
   $_[0]->{type} = $_[1];
 }
 sub flush{
-  print $STDBAK join("\r\n",@{$_[0]->{head}})."\r\nContent-Type: $_[0]->{type}\r\n\r\n";
+  print $STDBAK (@{$_[0]->{head}} ? join("\r\n",@{$_[0]->{head}})."\r\n":'')."Content-Type: $_[0]->{type}\r\n\r\n";
 }
 sub print{
   shift; CORE::print @_;
