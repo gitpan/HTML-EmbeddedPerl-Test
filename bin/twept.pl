@@ -2,7 +2,7 @@
 package twept;
 use strict;
 use warnings;
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 our $TIMEOUT = 2;
 local $SIG{ALRM} = sub{ die 'Force exiting, detected loop'; };
 my $STDBAK = *STDOUT;
@@ -17,7 +17,7 @@ sub header_out{
   push(@{$_[0]->{h}},"$_[1]: $_[2]") if(!$f);
 }
 sub content_type{ $_[0]->{t} = $_[1]; }
-sub flush{ print $STDBAK (@{$_[0]->{h}} ? join("\r\n",@{$_[0]->{h}})."\r\n":'')."Content-Type: $_[0]->{t}\r\n\r\n"; } }
+sub flush{ print $STDBAK (@{$_[0]->{h}} ? join("\r\n",@{$_[0]->{h}})."\r\n":'')."Content-Type: $_[0]->{t}\r\n\r\n"; }
 sub print{ shift; CORE::print @_; }
 sub run{ my($epl,$var) = (shift,shift); return eval shift; }
 my $var = bless {},__PACKAGE__.'::Vars';
